@@ -31,3 +31,34 @@
     transform: rotate(360deg);
   }
 }
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #EFEFF4;
+}
+
+.weui-tabbar {
+  position: fixed;
+  bottom: 0px;
+}
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  margin: 5px;
+}
+.profile {
+  width: 4rem;
+  height: 4rem;
+  margin: 5px;
+}
+.text__left {
+  text-align: left;
+}
+.text__right {
+  text-align: right
+}
+.badge-icon {
+  top: 0;
+  right: 0;
+}
