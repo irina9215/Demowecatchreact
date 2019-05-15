@@ -4,7 +4,10 @@
 .weui-cell__hd {
     position: relative;
 }
-.weui-flex__item img {
-    width: 12rem;
-    height: 10rem;
+.weui-flex__item  img {
+    width: 22vw;
+    height: 12vh;
+}
+.weui-article {
+    padding: 0;
 }
