@@ -12,9 +12,6 @@ import {
 import avator from '../../Images/portrait-lg.png';
 
 export default class DiscoverPage extends Component {
-    state = {
-        tab: 0
-    };
 
     render() {
         return (

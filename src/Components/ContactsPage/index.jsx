@@ -5,117 +5,92 @@ import {
     CellHeader,
     CellBody,
     Article,
+    SearchBar
 } from 'react-weui';
 
-import avator from '../../Images/portrait-lg.png';
-
 export default class ContactsPage extends Component {
-    state = {
-        tab: 0
-    };
+    constructor(probs) {
+        super(probs);
+        this.state = {
+            contacts: []
+        }
+        this.getContactsList = this.getContactsList.bind(this);
+    }
+    getContactsList() {
+        const contacts = [
+            {
+                "userName": "Mickey",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            },
+            {
+                "userName": "Mickey1",
+                "avator": "./static/media/portrait-lg.2c039e94.png"
+            }
 
+        ]
+
+        return contacts;
+    }
+    componentDidMount() {
+        this.setState({ contacts: this.getContactsList() })
+    }
+    renderItems() {
+        const contractsList = this.state.contacts;
+        return contractsList && contractsList.map((i, index) => (
+            <Cell key={index} access>
+                <CellHeader>
+                    <img src={i.avator} alt="" className="avatar" />
+                </CellHeader>
+                <CellBody className="text__left">
+                    {i.userName}
+                </CellBody>
+            </Cell>
+        ))
+    }
     render() {
         return (
             <Article>
                 <h1>Contacts</h1>
-
+                <SearchBar
+                    placeholder="Female Name Search"
+                    lang={{
+                        cancel: 'Cancel'
+                    }}
+                />
                 <Cells>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey2
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey3
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey4
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
-                    <Cell>
-                        <CellHeader>
-                            <img src={avator} alt="" className="avatar" />
-                        </CellHeader>
-                        <CellBody className="text__left">
-                            Mickey5
-                        </CellBody>
-                    </Cell>
+                    {this.renderItems()}
                 </Cells>
             </Article>
 

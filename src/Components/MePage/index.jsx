@@ -11,10 +11,6 @@ import {
 import avator from '../../Images/portrait-lg.png';
 
 export default class MePage extends Component {
-    state = {
-        tab: 0
-    };
-
     render() {
         return (
             <Article>
