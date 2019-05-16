@@ -7,7 +7,7 @@ import {
 } from 'react-weui';
 
 import MomentItem from './MomentItem'
-import './moment.less'
+import './moment.scss'
 import momentLoader from './../../Images/momentloader.png';
 import beer from './../../Images/beer.jpg'
 export default class Moments extends Component {
