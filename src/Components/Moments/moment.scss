@@ -2,15 +2,73 @@
     max-width: none !important;
 }
 .moment-body {
+    position: relative;
     .weui-cells {
         margin-top: -1em;
     }
+    .weui-cell {
+        padding: 20px 15px;
+        align-items: baseline;
+        .moment-description {
+            padding: 5px 0 10px;
+            font-size: 1em;
+        }
+        .react-weui-swiper__wrapper {
+            overflow: hidden;
+        }
+    }
+    .moment-header {
+        width: 100vw;
+        height: 40vh;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+      }
+    .moment-selfinfo {
+        z-index: 200;
+        position: absolute;
+        top: 30vh;
+        right: 1rem;
+        span {
+            font-weight: 500;
+            font-size: 22px;
+            color: #fff;
+            position: absolute;
+            right: 6rem;
+            bottom: 2rem;
+        }
+        img {
+            width: 5rem;
+            height: 5rem;
+            border-radius: 0.3rem;
+        }
+    }
+    .weui-flex__item {
+        img {
+            width: 5rem;
+            height: 5rem;
+            margin-right: 0.5rem;
+        }
+    }
 }
-.moment-header {
-    width: 100vw;
-    height: 40vh;
+.moment-avatar {
+    position: relative;
+    width: 4rem;
     img {
-        width: 100%;
-        height: 100%;
+        border-radius: 0.3rem;
+        position: absolute;
+        top: -1em;
     }
   }
+.moment-user {
+    font-weight: 500;
+    color: #475a82;
+}
+img.img_origin {
+    width: auto !important;
+    height: auto !important;
+}
+.moment-gallery__one {
+    padding-right: 1rem;
+}

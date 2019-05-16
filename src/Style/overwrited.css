@@ -4,11 +4,7 @@
 .weui-cell__hd {
     position: relative;
 }
-.weui-flex__item  img {
-    width: 22vw;
-    height: 12vh;
-    margin-right: 1rem;
-}
+
 .weui-article {
     padding: 0;
 }

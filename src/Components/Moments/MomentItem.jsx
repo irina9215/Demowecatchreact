@@ -22,14 +22,15 @@ export default class MomentItem extends Component {
             },
             showGallery: false
         }
-        this.renderGallery = this.renderGallery.bind(this);
+        // this.renderThumbnail = this.renderThumbnail.bind(this);
     }
-    renderGallery(imagesList) {
+    renderThumbnail(imagesList) {
         return imagesList && imagesList.split(',').map((i, index) => {
             const img = JSON.parse(i);
             return (
                 <FlexItem component="div" key={index}>
-                    <img src={img.src} alt="" onClick={
+                    <img src={img.src} alt="" className={ imagesList.split(',').length === 1 ? 'img_origin' : null }
+                    onClick={
                         (e) => {
                             this.setState({
                                 gallery: {
@@ -68,14 +69,14 @@ export default class MomentItem extends Component {
 
         return (
             <Cell>
-                <CellHeader>
+                <CellHeader className="moment-avatar">
                     <img src={momentContent.avator} alt="" className="avatar" />
                 </CellHeader>
                 <CellBody className="text__left">
                     <p className="moment-user">{momentContent.userName}</p>
                     <p className="moment-description">{momentContent.description}</p>
-                    <Flex className="moment-gallery">
-                        {this.renderGallery(imagesList)}
+                    <Flex className={imagesList.split(',').length === 1 ? 'moment-gallery moment-gallery__one' : "moment-gallery"}>
+                        {this.renderThumbnail(imagesList)}
                     </Flex>
                     {this.renderSwiper(imagesList)}
                     <div>
