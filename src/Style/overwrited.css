@@ -11,3 +11,6 @@
 .weui-article {
     padding: 0;
 }
+.weui-article a {
+    color: unset;
+}

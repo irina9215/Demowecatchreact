@@ -8,29 +8,37 @@ import {
     Article,
     CellFooter
 } from 'react-weui';
+import { Link } from 'react-router-dom';
 
 import avator from '../../Images/portrait-lg.png';
 
 export default class DiscoverPage extends Component {
-
-    render() {
+    renderMement() {
         return (
-            <Article>
-                <h1>Discover</h1>
+            <Link to='/moments'>
                 <Cells>
                     <Cell access>
                         <CellHeader>
                             <img src={avator} alt="" className="avatar" />
                         </CellHeader>
-                        <CellBody className="text__left">
+                        <CellBody className="text__left" >
                             Moments
-                    </CellBody>
+                        </CellBody>
                         <CellBody className="text__right">
                             <img src={avator} alt="" className="avatar" />
                         </CellBody>
                         <CellFooter />
                     </Cell>
-                </Cells>
+                </Cells></Link>
+
+        )
+    }
+
+    render() {
+        return (
+            <Article>
+                <h1>Discover</h1>
+                {this.renderMement()}
                 <Cells>
                     <Cell access>
                         <CellHeader>
