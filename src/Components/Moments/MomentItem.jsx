@@ -37,8 +37,6 @@ export default class MomentItem extends Component {
                                     id: index
                                 },
                                 showGallery: true
-                            }, () => {
-                                console.log(this.state)
                             })
                         }
                     }></img>
