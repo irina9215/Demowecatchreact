@@ -30,7 +30,6 @@ export default class DiscoverPage extends Component {
                         <CellFooter />
                     </Cell>
                 </Cells></Link>
-
         )
     }
 

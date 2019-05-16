@@ -45,8 +45,9 @@ export default class MomentItem extends Component {
         })
     }
     renderSwiper(imagesList) {
+        if(!this.state.showGallery) return false;
         const galleryItems = imagesList && imagesList.split(',').map(i => JSON.parse(i).src);
-        console.log('swip', this.state.gallery.id)
+        console.log('swip', this.state.gallery.id) // this is call before setState callback
         return (
             <Gallery src={galleryItems} show={this.state.showGallery}
                 defaultIndex={this.state.gallery.id}

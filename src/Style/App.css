@@ -72,3 +72,6 @@
   width: 100vw;
   height: 40vh;
 }
+.moment-header img {
+  width: 100%;
+}
