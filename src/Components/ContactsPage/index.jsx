@@ -20,43 +20,43 @@ export default class ContactsPage extends Component {
         const contacts = [
             {
                 "userName": "Mickey",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png"
+                "avator": "https://tse3-mm.cn.bing.net/th?id=OIP.mB-yHg8OvrbuInd5TOecEgHaFj&w=273&h=203&c=7&o=5&dpr=2&pid=1.7"
             }
 
         ]

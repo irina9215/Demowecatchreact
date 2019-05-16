@@ -22,7 +22,7 @@ export default class Moments extends Component {
         const momentsList = [
             {
                 "userName": "Mickey",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "likes": 9,
                 "description": "全新梅赛德斯-AMG GT四门跑车进一步壮大了AMG GT家族阵容，这款名副其实的四门跑车，将助你在人生的赛道上，驭速前行，成就非凡",
                 "createTime": "19:00",
@@ -30,7 +30,7 @@ export default class Moments extends Component {
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "likes": 0,
                 "description": "傲慢的单身青年达西与偏见的二小姐伊丽莎白、富裕的单身贵族彬格莱与贤淑的大小姐吉英之间的感情纠葛，充分表达了作者本人的婚姻观，强调经济利益对恋爱和婚姻的影响。",
                 "createTime": "18:50",
@@ -38,7 +38,7 @@ export default class Moments extends Component {
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "likes": 0,
                 "description": "《儿童法案》中的菲奥娜•迈耶是一位高等法院的女法官，向来以严苛的睿智、精确和理性闻名。",
                 "createTime": "18:40",
@@ -54,7 +54,7 @@ export default class Moments extends Component {
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "likes": 0,
                 "description": "喜闻乐见的穿孔金属板渲染方法，中间的一系列 Photoshop 操作既简单又实用。而且有一丢丢的风骚",
                 "createTime": "18:25",
@@ -66,7 +66,7 @@ export default class Moments extends Component {
                 "likes": 0,
                 "description": "welcome",
                 "createTime": "18:10",
-                "imagesList": '{"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/010/774/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/005/639/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/005/639/small.jpg"}, {"src": "./static/media/portrait-lg.2c039e94.png"}, {"src": "./static/media/portrait-lg.2c039e94.png"}, {"src": "./static/media/portrait-lg.2c039e94.png"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/010/774/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/003/814/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/003/814/small.jpg"}'
+                "imagesList": '{"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/010/774/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/005/639/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/005/639/small.jpg"}, {"src": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7"}, {"src": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7"}, {"src": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/010/774/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/003/814/small.jpg"}, {"src": "https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/003/814/small.jpg"}'
             },
             {
                 "userName": "Mickey1",

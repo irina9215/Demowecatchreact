@@ -11,3 +11,7 @@
 .weui-article a {
     color: unset;
 }
+.weui-article h1 {
+    margin: .9em 0;
+    text-align: center;
+}

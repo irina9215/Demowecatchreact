@@ -21,49 +21,49 @@ export default class ChatsPage extends Component {
         const chatsList = [
             {
                 "userName": "Mickey",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 9,
                 "message": "welcome",
                 "msgTime": "19:00"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 0,
                 "message": "welcome",
                 "msgTime": "18:50"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 0,
                 "message": "welcome",
                 "msgTime": "18:40"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 0,
                 "message": "welcome",
                 "msgTime": "18:33"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 0,
                 "message": "welcome",
                 "msgTime": "18:25"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 0,
                 "message": "welcome",
                 "msgTime": "18:10"
             },
             {
                 "userName": "Mickey1",
-                "avator": "./static/media/portrait-lg.2c039e94.png",
+                "avator": "https://tse2-mm.cn.bing.net/th?id=OIP.S6eSwKyTRRCi1Pl79CXIHQHaFj&w=256&h=192&c=7&o=5&dpr=2&pid=1.7",
                 "msgBadge": 0,
                 "message": "welcome",
                 "msgTime": "16:00"
