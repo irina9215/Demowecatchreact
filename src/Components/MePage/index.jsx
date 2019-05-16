@@ -8,7 +8,7 @@ import {
     Article
 } from 'react-weui';
 
-import avator from '../../Images/portrait-lg.png';
+import avator from '../../images/portrait-lg.png';
 
 export default class MePage extends Component {
     render() {

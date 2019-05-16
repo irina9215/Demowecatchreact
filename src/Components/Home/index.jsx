@@ -10,10 +10,10 @@ import ContactsPage from '../ContactsPage';
 import DiscoverPage from '../DiscoverPage';
 import MePage from '../MePage';
 
-import ChatsBtn from './../../Images/chats_icon.png';
-import ContractsBtn from '../../Images/contracts_icon.png';
-import DiscoverBtn from '../../Images/discover_icon.png';
-import MeBtn from '../../Images/me_icon.png';
+import ChatsBtn from './../../images/chats_icon.png';
+import ContractsBtn from '../../images/contracts_icon.png';
+import DiscoverBtn from '../../images/discover_icon.png';
+import MeBtn from '../../images/me_icon.png';
 
 export default class HomePage extends Component {
     state={

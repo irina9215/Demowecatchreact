@@ -2,11 +2,11 @@ import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import 'weui';
 import 'react-weui/build/packages/react-weui.css';
-import './Style/App.css';
-import './Style/overwrited.css';
+import './style/App.css';
+import './style/overwrited.css';
 
-import HomePage from './Components/Home';
-import Moments from './Components/Moments'
+import HomePage from './components/Home';
+import Moments from './components/Moments'
 
 const App = () => (
   <Router>

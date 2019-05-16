@@ -10,7 +10,7 @@ import {
 } from 'react-weui';
 import { Link } from 'react-router-dom';
 
-import avator from '../../Images/portrait-lg.png';
+import avator from '../../images/portrait-lg.png';
 
 export default class DiscoverPage extends Component {
     renderMement() {

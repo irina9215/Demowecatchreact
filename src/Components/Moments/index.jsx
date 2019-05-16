@@ -8,7 +8,7 @@ import {
 
 import MomentItem from './MomentItem'
 import './moment.scss'
-import momentLoader from './../../Images/momentloader.png';
+import momentLoader from './../../images/momentloader.png';
 
 export default class Moments extends Component {
     constructor(probs) {
