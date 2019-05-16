@@ -9,6 +9,8 @@ import {
     Gallery,
     // Button
 } from 'react-weui';
+//Modified FlexItem
+// import FlexItem from './../flex/flex_item'
 
 export default class MomentItem extends Component {
     constructor(probs) {
@@ -26,7 +28,7 @@ export default class MomentItem extends Component {
         return imagesList && imagesList.split(',').map((i, index) => {
             const img = JSON.parse(i);
             return (
-                <FlexItem key={index}>
+                <FlexItem component="div" key={index}>
                     <img src={img.src} alt="" onClick={
                         (e) => {
                             this.setState({
@@ -47,7 +49,6 @@ export default class MomentItem extends Component {
     renderSwiper(imagesList) {
         if(!this.state.showGallery) return false;
         const galleryItems = imagesList && imagesList.split(',').map(i => JSON.parse(i).src);
-        console.log('swip', this.state.gallery.id) // this is call before setState callback
         return (
             <Gallery src={galleryItems} show={this.state.showGallery}
                 defaultIndex={this.state.gallery.id}
