@@ -8,8 +8,7 @@ import {
     Article,
     CellFooter
 } from 'react-weui';
-import { Link } from 'react-router-dom';
-
+import {Link} from 'react-router-dom';
 import avator from '../../images/portrait-lg.png';
 
 export default class DiscoverPage extends Component {
