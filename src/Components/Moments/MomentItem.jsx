@@ -23,23 +23,8 @@ export default class MomentItem extends Component {
             },
             showGallery: false
         }
-        // this.renderThumbnail = this.renderThumbnail.bind(this);
     }
     renderThumbnail(imagesList) {
-        // if (imagesList.split(',').length === 1) {
-        //     return (
-        //         <img src={imagesList[0].src} alt="" className="img_origin"></img>
-        //     )
-        // } else {
-        //     const data = imagesList && imagesList.split(',').map((i, index) => {
-        //        return  ({
-        //             icon: <img src={i.src} key={index}  onClick={(e) => { this.setState({gallery: {url: e.target.src,id: index},showGallery: true})}}> </img>,
-        //             label: 'Grid',
-        //             href: 'javascript:;'
-        //         })
-        //     }
-        //     return (<Grids data={data}/>)
-        // }
         return imagesList && imagesList.split(',').map((i, index) => {
             const img = JSON.parse(i);
             return (
