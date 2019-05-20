@@ -5,6 +5,7 @@
     position: relative;
     .weui-cells {
         margin-top: -1em;
+        position: relative;
     }
     .weui-cell {
         padding: 20px 15px;
@@ -51,6 +52,29 @@
             margin-right: 0.5rem;
         }
     }
+    .weui-grids {
+        &:before {
+            border-top: 0; 
+        }
+        &:after {
+            border-left: 0;
+        }
+    }
+    .weui-grid {
+        padding: 0;
+        margin: 5px;
+        width: calc(33.333% - 10px);
+        .weui-grid__icon {
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .weui-tabbar__item {
+        position: absolute;
+        bottom: 1rem;
+        right: 2rem;
+    }
 }
 .moment-avatar {
     position: relative;
@@ -69,6 +93,12 @@
     width: auto !important;
     height: auto !important;
 }
+.moment-gallery {
+    margin-bottom: 0.5rem;
+}
 .moment-gallery__one {
     padding-right: 1rem;
+}
+.moment-info {
+    color: #6d6565
 }

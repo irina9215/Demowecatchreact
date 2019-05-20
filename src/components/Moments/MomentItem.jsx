@@ -5,13 +5,10 @@ import {
     CellHeader,
     CellBody,
     Flex,
-    FlexItem,
     Gallery,
-    // Grids
-    // Button
+    Grids
 } from 'react-weui';
-//Modified FlexItem
-// import FlexItem from './../flex/flex_item'
+import MomentActions from './MomentActions'
 
 export default class MomentItem extends Component {
     constructor(probs) {
@@ -24,27 +21,22 @@ export default class MomentItem extends Component {
             showGallery: false
         }
     }
-    renderThumbnail(imagesList) {
-        return imagesList && imagesList.split(',').map((i, index) => {
+
+    renderThumbnailGrids(imagesList) {
+        const grids = imagesList && imagesList.split(',').map((i, index) => {
             const img = JSON.parse(i);
-            return (
-                <FlexItem component="div" key={index}>
-                    <img src={img.src} alt="" className={ imagesList.split(',').length === 1 ? 'img_origin' : null }
-                    onClick={
-                        (e) => {
-                            this.setState({
-                                gallery: {
-                                    url: e.target.src,
-                                    id: index
-                                },
-                                showGallery: true
-                            })
-                        }
-                    }></img>
-                </FlexItem>
-            )
+            // eslint-disable-next-line
+            const href = 'javascript:;';
+            // eslint-disable-next-line
+            const gird = new Object();
+            gird['icon'] = <img src={img.src} alt="" onClick={(e) => {this.setState({gallery: {url: e.target.src,id: index},showGallery: true})}}/>;
+            gird['label'] = '';
+            gird['href'] = href;
+            return gird
         })
+        return ( <Grids data={grids}/> )
     }
+
     renderSwiper(imagesList) {
         if(!this.state.showGallery) return false;
         const galleryItems = imagesList && imagesList.split(',').map(i => JSON.parse(i).src);
@@ -76,14 +68,15 @@ export default class MomentItem extends Component {
                     <p className="moment-user">{momentContent.userName}</p>
                     <p className="moment-description">{momentContent.description}</p>
                     <Flex className={imagesList.split(',').length === 1 ? 'moment-gallery moment-gallery__one' : "moment-gallery"}>
-                        {this.renderThumbnail(imagesList)}
+                        {this.renderThumbnailGrids(imagesList)}
                     </Flex>
                     {this.renderSwiper(imagesList)}
-                    <div>
+                    <div className="moment-info">
                         <span>{momentContent.createTime}</span>
                         {/* <MomentAction></MomentAction> */}
                     </div>
                 </CellBody>
+                <MomentActions />
             </Cell>
         );
     }
